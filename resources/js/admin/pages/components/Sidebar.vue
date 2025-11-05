@@ -38,8 +38,9 @@
                     </a>
                 </li>
 
+                
 
-                <li class="sidebar-list"   v-if="checkpermission('perm_category_page')">
+                <li class="sidebar-list" >
                     <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
                         <i class="ri-list-check-2"></i>
                         <span>Projects</span>
@@ -56,7 +57,7 @@
                     </ul>
                 </li>
 
-<!-- 
+<!--
                 <li class="sidebar-list"  >
                     <a class="sidebar-link sidebar-title" href="javascript:void(0)">
                         <i class="ri-user-3-line"></i>

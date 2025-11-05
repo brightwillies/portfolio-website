@@ -6927,6 +6927,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
@@ -59124,159 +59125,128 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "sidebar-wrapper" }, [
-    _c("div", { attrs: { id: "sidebarEffect" } }),
-    _vm._v(" "),
-    _c("div", [
-      _vm._m(0),
-      _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _c("nav", { staticClass: "sidebar-main" }, [
-        _vm._m(2),
-        _vm._v(" "),
-        _c("div", { attrs: { id: "sidebar-menu" } }, [
-          _c(
-            "ul",
-            { staticClass: "sidebar-links", attrs: { id: "simple-bar" } },
-            [
-              _c("li", { staticClass: "back-btn" }),
-              _vm._v(" "),
-              _vm._m(3),
-              _vm._v(" "),
-              _vm.checkpermission("perm_category_page")
-                ? _c("li", { staticClass: "sidebar-list" }, [
-                    _vm._m(4),
-                    _vm._v(" "),
-                    _vm._m(5),
-                  ])
-                : _vm._e(),
-            ]
-          ),
-        ]),
-        _vm._v(" "),
-        _vm._m(6),
-      ]),
-    ]),
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "logo-wrapper logo-wrapper-center" }, [
-      _c(
-        "a",
-        {
-          attrs: {
-            href: "/administrator-dashboard",
-            "data-bs-original-title": "",
-            title: "",
-          },
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid for-white",
-            attrs: { src: "/fassets/images/header-logo.svg", alt: "logo" },
-          }),
-        ]
-      ),
+    return _c("div", { staticClass: "sidebar-wrapper" }, [
+      _c("div", { attrs: { id: "sidebarEffect" } }),
       _vm._v(" "),
-      _c("div", { staticClass: "back-btn" }, [
-        _c("i", { staticClass: "fa fa-angle-left" }),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "toggle-sidebar" }, [
-        _c("i", {
-          staticClass: "ri-apps-line status_toggle middle sidebar-toggle",
-        }),
-      ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "logo-icon-wrapper" }, [
-      _c("a", { attrs: { href: "/administrator-dashboard" } }, [
-        _vm._v("\n                    Home\n                    "),
-      ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "left-arrow", attrs: { id: "left-arrow" } },
-      [_c("i", { attrs: { "data-feather": "arrow-left" } })]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "sidebar-list" }, [
-      _c(
-        "a",
-        {
-          staticClass: "sidebar-link sidebar-title link-nav",
-          attrs: { href: "/administrator-dashboard" },
-        },
-        [
-          _c("i", { staticClass: "ri-home-line" }),
+      _c("div", [
+        _c("div", { staticClass: "logo-wrapper logo-wrapper-center" }, [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "/administrator-dashboard",
+                "data-bs-original-title": "",
+                title: "",
+              },
+            },
+            [
+              _c("img", {
+                staticClass: "img-fluid for-white",
+                attrs: { src: "/fassets/images/header-logo.svg", alt: "logo" },
+              }),
+            ]
+          ),
           _vm._v(" "),
-          _c("span", [_vm._v("Dashboard")]),
-        ]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      {
-        staticClass: "linear-icon-link sidebar-link sidebar-title",
-        attrs: { href: "javascript:void(0)" },
-      },
-      [
-        _c("i", { staticClass: "ri-list-check-2" }),
+          _c("div", { staticClass: "back-btn" }, [
+            _c("i", { staticClass: "fa fa-angle-left" }),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "toggle-sidebar" }, [
+            _c("i", {
+              staticClass: "ri-apps-line status_toggle middle sidebar-toggle",
+            }),
+          ]),
+        ]),
         _vm._v(" "),
-        _c("span", [_vm._v("Projects")]),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "sidebar-submenu" }, [
-      _c("li", [
-        _c("a", { attrs: { href: "/administrator-dashboard/projects" } }, [
-          _vm._v("Project List"),
+        _c("div", { staticClass: "logo-icon-wrapper" }, [
+          _c("a", { attrs: { href: "/administrator-dashboard" } }, [
+            _vm._v("\n                    Home\n                    "),
+          ]),
         ]),
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c("a", { attrs: { href: "/administrator-dashboard/project" } }, [
-          _vm._v("Add New Project"),
+        _vm._v(" "),
+        _c("nav", { staticClass: "sidebar-main" }, [
+          _c(
+            "div",
+            { staticClass: "left-arrow", attrs: { id: "left-arrow" } },
+            [_c("i", { attrs: { "data-feather": "arrow-left" } })]
+          ),
+          _vm._v(" "),
+          _c("div", { attrs: { id: "sidebar-menu" } }, [
+            _c(
+              "ul",
+              { staticClass: "sidebar-links", attrs: { id: "simple-bar" } },
+              [
+                _c("li", { staticClass: "back-btn" }),
+                _vm._v(" "),
+                _c("li", { staticClass: "sidebar-list" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "sidebar-link sidebar-title link-nav",
+                      attrs: { href: "/administrator-dashboard" },
+                    },
+                    [
+                      _c("i", { staticClass: "ri-home-line" }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Dashboard")]),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "sidebar-list" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass:
+                        "linear-icon-link sidebar-link sidebar-title",
+                      attrs: { href: "javascript:void(0)" },
+                    },
+                    [
+                      _c("i", { staticClass: "ri-list-check-2" }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Projects")]),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "sidebar-submenu" }, [
+                    _c("li", [
+                      _c(
+                        "a",
+                        {
+                          attrs: { href: "/administrator-dashboard/projects" },
+                        },
+                        [_vm._v("Project List")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c(
+                        "a",
+                        { attrs: { href: "/administrator-dashboard/project" } },
+                        [_vm._v("Add New Project")]
+                      ),
+                    ]),
+                  ]),
+                ]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "right-arrow", attrs: { id: "right-arrow" } },
+            [_c("i", { attrs: { "data-feather": "arrow-right" } })]
+          ),
         ]),
       ]),
     ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "right-arrow", attrs: { id: "right-arrow" } },
-      [_c("i", { attrs: { "data-feather": "arrow-right" } })]
-    )
   },
 ]
 render._withStripped = true
