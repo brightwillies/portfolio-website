@@ -54,14 +54,9 @@ class AuthController extends Controller
                     $admin->last_login = new DateTime();
                     $admin->save();
 
-                    $roleId         = $admin->role_id;
+
                     $userpemissions = [];
-                    $getPermission  = RolePermission::where('role_id', $roleId)->get();
-                    if (! empty($getPermission)) {
-                        foreach ($getPermission as $key => $pem) {
-                            $userpemissions[] = $pem->permission;
-                        }
-                    }
+                   
                     return $this->successResponse("Login Successful", [
                         "user"        => $admin,
                         "token"       => $token,
