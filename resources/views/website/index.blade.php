@@ -2,12 +2,35 @@
 
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+
+        <title>Bright Williams Boakye - AI Solutions Architect & Full Stack Engineer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/fassets/css/main.css" />
 		<noscript><link rel="stylesheet" href="/fassets/css/noscript.css" /></noscript>
-	</head>
+	<style>
+        .highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.stat {
+  font-size: 1rem;
+  min-width: 140px;
+}
+.stat .icon { font-size: 1.5rem; display: block; margin-bottom: 0.3rem; }
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+    </style>
+
+    </head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -20,16 +43,19 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h1>Bright Williams Boakye</h1>
+                                <!-- <p>AI Solutions Architect & Full-Stack Developer | Specializing in RAG, Predictive Modeling, NLP, and Scalable AI Systems</p> -->
+
+                                <p>
+    AI Solutions Architect & Full-Stack Developer | Specializing in RAG, Churn & Fraud Prediction, Streamlit Dashboards, and Production-Grade AI Systems
+</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
+								<!-- <li><a href="#about">About</a></li> -->
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -41,11 +67,39 @@
 
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="/fassets/images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
+								<h2 class="major">Hello, I'm Bright Williams Boakye</h2>
+								<span class="image main"><img src="/fassets/images/me.png" alt="" /></span>
+
+                                <!-- <p >
+      I turn <strong>business problems into AI solutions</strong> using <strong>RAG, predictive models, and full-stack systems</strong>.
+    </p>
+    <p >
+      Currently completing <strong>George Brown’s Applied A.I. Solutions Development (T431)</strong> — co-op ready, PGWP-eligible.
+    </p>
+
+    <p class="pitch">
+      7+ years delivering <strong>full-stack solutions + AI</strong> for <strong>10,000+ users</strong> in healthcare, e-commerce, telecom, and agriculture.
+    </p> -->
+
+
+    <p class="pitch">
+      I'm an <strong>AI Solutions Architect & Full-Stack Developer</strong> who builds <strong>production-grade AI systems from idea to deployment</strong>.
+    </p>
+    <p class="pitch">
+      I combine <strong>machine learning (RAG, XGBoost, NLP)</strong> with <strong>scalable web platforms (Next.js, Node.js, AWS, Docker)</strong> to solve real business problems.
+    </p>
+    <p class="pitch">
+      Currently completing <strong>George Brown College’s Applied A.I. Solutions Development (T431)</strong> — a <strong>co-op program</strong> designed to bridge data science, full-stack engineering, and business impact.
+    </p>
+    <p class="pitch">
+      With <strong>7+ years of experience</strong>, I’ve delivered <strong>AI-powered apps</strong> for healthcare (500+ doctors), agriculture (5,000+ farmers), and telecom — serving <strong>10,000+ users</strong> and reducing manual work by up to <strong>70%</strong>.
+    </p>
+
+
+    
+
+
+                            </article>
 
 						<!-- Work -->
 							<article id="work">
@@ -53,6 +107,7 @@
 								<h2 class="major">{{$project->title}}</h2>
 								<span class="image main"><img src="{{$project->image}}" alt="" /></span>
 								  {!! html_entity_decode($project->description) !!}
+								 <a target="_blank" href="{{$project->notebook}}">Click Here</a>
                                 @endforeach
 
 								</article>
@@ -341,7 +396,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<!-- <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
 					</footer>
 
 			</div>
