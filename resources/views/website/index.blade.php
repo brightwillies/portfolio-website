@@ -46,7 +46,7 @@
 								<h1>Bright Williams Boakye</h1>
                                 <!-- <p>AI Solutions Architect & Full-Stack Developer | Specializing in RAG, Predictive Modeling, NLP, and Scalable AI Systems</p> -->
 
-                                <p>
+                                <p style="16px;">
     AI Solutions Architect & Full-Stack Developer | Specializing in RAG, Churn & Fraud Prediction, Streamlit Dashboards, and Production-Grade AI Systems
 </p>
 							</div>
@@ -96,7 +96,7 @@
     </p>
 
 
-    
+
 
 
                             </article>
